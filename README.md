@@ -1,6 +1,8 @@
 # leetcode-library
 A library of Leetcode solutions to improve algorithmic thinking and problem-solving capabilities using C++.
 
+---
+
 The problems are categorized based on their difficulty:
 
 **Easy:** Problems that introduce foundational concepts. A great way to warm up and get familiar with basic algorithms and data structures.
