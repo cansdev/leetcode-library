@@ -3,7 +3,6 @@
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
-        //Bubble Sort
         std::sort(nums.begin(), nums.end() );
         //Edge cases
 
