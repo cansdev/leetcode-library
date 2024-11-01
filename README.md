@@ -1,5 +1,7 @@
 # leetcode-library
-A library of Leetcode solutions to improve algorithmic thinking and problem-solving capabilities using C++.
+A library of LeetCode solutions to improve algorithmic thinking and problem-solving capabilities. 
+
+This repository organizes LeetCode solutions by difficulty and language to support a well-rounded approach to algorithm mastery. Each solution aims to enhance understanding of foundational and advanced problem-solving techniques across multiple domains.
 
 ---
 
