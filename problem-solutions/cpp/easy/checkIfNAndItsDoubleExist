@@ -1,0 +1,24 @@
+class Solution {
+public:
+    bool checkIfExist(vector<int>& arr) {
+        bool checks[2] = {false, false};
+        for(int i=0; i<arr.size(); i++) {
+            for(int j=0; j<arr.size(); j++) {
+                if(i != j) {
+                    checks[0] = true;
+                }
+                if(checks[0] && 0 <= i && j < arr.size()) {
+                    checks[1] = true;
+                }
+                if(checks[1] && arr[i] == 2*arr[j]) {
+                    return true;
+                }
+                checks[0] = false;
+                checks[1] = false;
+            }
+        }
+
+        return false;
+        
+    }
+};
